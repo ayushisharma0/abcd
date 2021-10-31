@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    max-width: 1920px; 
+    margin: 0 auto;
+    text-decoration: none;
+    list-style: none;
+ }
+ .container-fluid {
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+  @font-face{
+    font-family:Gotham;
+    src: url(../fonts/Gotham Bold.otf);
+  }
+  /* navbar starrt */
+  .top-navbar{
+    display: flex;
+    align-items: center;
+    padding: 18px 25px 0px 25px;
+   
+  }
+  .p{
+    font-family:Gotham;
+  }
+  .img{
+    width: 100%;
+  }
+  .list ul{
+    display: flex;
+    list-style: no;
+  }
+  .log-in{
+    display: flex;
+  }
+  li.nav-link {
+    list-style: none;
+}
+.navbar{
+  background-image: url("../images/Layer\ 10.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 887px;
+      color: white;
+}
+.play {
+  color: white;
+}
+.video a{
+  font-size: 40px;
+}
+.video{
+  text-align: center;
+  padding-top: 339px;
+   padding-bottom: 245px;
+}
+.header {
+  text-align: center;
+}
+/* navbar section complete */
+.rooted{
+    font-size: 24px;
+    letter-spacing: 5px;
+    line-height: 30px;
+    color: #282d3b;
+    font-weight: 800;
+    font-family: "Gotham";
+    padding-bottom: 78px;
+    padding-top: 52px;
+}
+.about p{
+
+font-size: 16px;
+line-height: 32px;
+color: #000000;
+font-weight: 500;
+font-family: "Gotham";
+padding-bottom: 47px;
+}
+.about h5{
+  font-size: 19px;
+}
+
+.about-us{
+  display: flex;
+  padding-top: 148px;
+  height: 1120px;
+  
+}
+.about.text {
+  position: relative;
+}
+.about-img img{
+  width: 649px;
+  margin-top: 67px;
+  border-radius: 15px;
+  box-shadow: #ddd 0px 0px 13px 8px;
+      height: 739px;
+      position: absolute;
+      right: 270px
+  
+}
+
+/* aboutus complete */
+.container-logo{
+display: flex;
+justify-content: space-between;
+padding-top: 290px;
+padding-bottom: 20px;
+
+}
+.hostler-kiss{
+  /* background-image: url("../images/Kiss_plus.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; */
+}
+.kiss{
+  background-color: black;
+}
+.swing {
+  display: flex;
+}
+.duo{
+  display: flex;
+  justify-content: space-between;
+}
+.color-one{
+  background-color: #1f1f1f;
+  margin-right: 37px;
+  margin-bottom: 27px;
+}
+.color-two{
+  background-color: #1f1f1f;
+  margin-right: 37px;
+  margin-bottom: 27px;
+  padding-top: 71px;
+}
+.color-three{
+  background-color: #1f1f1f;
+  margin-bottom: 27px;
+}
+.swing-two img{
+  background-color: #1f1f1f;
+  margin-bottom: 27px;
+}
+.text-duo p{
+  color: white;
+  margin-bottom: 143px;
+}
+/* end kiss block */
+.energy-text h6{
+  padding: 61px 0px 21px 0px;
+  font-size: 16px;
+line-height: 28px;
+color: #282d3b;
+font-weight: 800;
+font-family: "Gotham";
+}
+.energy-text h2{
+  font-size: 60px;
+letter-spacing: 12px;
+line-height: 60px;
+color: #282d3b;
+font-family: "Gotham";
+padding-bottom: 55px;
+}
+.energy-text p{
+  font-size: 16px;
+  line-height: 28px;
+  color: #282d3b;
+  font-weight: 500;
+  font-family: "Gotham";
+  padding-top: 19px;
+}
+
+
+
+
+
+/* drink complete */
+.cigrat-text h2{
+  font-size: 60px;
+  letter-spacing: 12px;
+  line-height: 60px;
+  color: #282d3b;
+  font-family: "Gotham";
+  padding-top: 57px;
+}
+.cigrat-text h6{
+  font-size: 18px;
+  letter-spacing: 4px;
+  line-height: 22px;
+  color: #282d3b;
+  font-weight: 500;
+  font-family: "Gotham";
+
+}
+
+.cigrats {
+  margin-top: 151px;
+
+  margin-bottom: 283px;
+  display: flex;
+
+}
+.cigrat\/img {
+  margin-right: 140px;
+}
+.cigrat\/img img{
+  border-radius: 15px;
+    box-shadow: #ddd 0px 0px 13px 8px;
+    height: 681px;
+    width: 854px;
+}
+/* cigrat complete */
+
+.energy img{
+margin-right: 140px;
+  height: 679px;
+  width: 839px;
+}
+.drinks{
+  display: flex;
+  margin: 147px 0px 147px 0px;
+}
+
+/* con section start*/
+.frnds img{
+  height: 679px;
+  width: 847px;
+  margin: 0px 153px 153px 0px;
+}
+.under-container{
+  display: flex;
+}
